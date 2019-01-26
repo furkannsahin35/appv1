@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="buddyV2.Pages.PageLogin1" x:Name="Pagez">
+    <ContentPage.Content>
+        <StackLayout Orientation="Vertical" BackgroundColor="#1eafed" >
+            <ActivityIndicator x:Name="loginActivity" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"></ActivityIndicator>
+            <Label x:Name="loginActivityLabel" Text="giriş yapılıyor, bekleyiniz..." VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" IsVisible="{Binding Source={x:Reference Pagez},Path=IsBusy}" TextColor="Black"/>
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="200" />
+                    <RowDefinition Height="2*"  />
+                    <RowDefinition Height="2*"  />
+                    <RowDefinition Height="Auto"  />
+                    <RowDefinition Height="2*"  />
+                    <RowDefinition Height="Auto"  />
+                    <RowDefinition Height="Auto"  />
+                    <RowDefinition Height="*"  />
+                    <RowDefinition Height="*"  />
+                </Grid.RowDefinitions>
+
+                <controls:CircleImage Source="logomain.png" Aspect="AspectFill" Grid.Row="0" HorizontalOptions="CenterAndExpand" VerticalOptions="EndAndExpand" BorderColor="Black" BorderThickness="2"  >
+                    <controls:CircleImage.WidthRequest>
+                        <OnPlatform x:TypeArguments="x:Double">
+                            <On Platform="Android, iOS">150</On>
+
+                        </OnPlatform>
+                    </controls:CircleImage.WidthRequest>
+                    <controls:CircleImage.HeightRequest>
+                        <OnPlatform x:TypeArguments="x:Double">
+                            <On Platform="Android, iOS">150</On>
+
+                        </OnPlatform>
+                    </controls:CircleImage.HeightRequest>
+                </controls:CircleImage>
+
+                <Label Text="Mail Adresi" Margin="0.5" Grid.Row="2" HorizontalOptions="CenterAndExpand"  
+                       FontSize="20" TextColor="White" FontAttributes="Bold"  VerticalOptions="CenterAndExpand"  />
+                <Entry x:Name="_mailentry" Placeholder="Mail Adresi Giriniz " Grid.Row="3" HorizontalOptions="CenterAndExpand" VerticalOptions="EndAndExpand" FontSize="15" />
+                <Label Text="Şifre " Margin="0.5" Grid.Row="4" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"  
+                       FontSize="20" TextColor="White" FontAttributes="Bold" />
+                <Entry x:Name="_sifreentry" Placeholder="Şifre Giriniz " Grid.Row="5" FontSize="15" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" IsPassword="True"/>
+                <Button Text="Sifremi Unuttum?" Grid.Row="6" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"
+                        FontAttributes="Bold" BackgroundColor="#1eafed" TextColor="White" FontSize="5" />
+            </Grid>
+            <StackLayout Grid.Row="7" Orientation="Horizontal" Padding="0,0,0,30"  >
+                <Button x:Name="_geributton" Text="Geri" HorizontalOptions="CenterAndExpand" VerticalOptions="Center" 
+                        BackgroundColor="White" Margin="20" Clicked="geributton_Clicked"/>
+                <Button x:Name="_girisbutton" Text="Giriş" HorizontalOptions="CenterAndExpand"  VerticalOptions="Center" 
+                        BackgroundColor="White" Margin="20" Clicked="girisbutton_Clicked"/>
+
+
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

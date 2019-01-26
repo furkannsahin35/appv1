@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="buddyV2.Pages.PageUserProfile">
+    <ContentPage.Content>
+        <StackLayout Orientation="Vertical" BackgroundColor="LightBlue">
+        
+            <ListView x:Name="userProfilePage"
+                  RowHeight="60"
+                  SeparatorVisibility="None"
+                  BackgroundColor="White"
+                 
+                    >
+
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                        <ViewCell>
+                            
+                            
+                            
+                            
+                            
+                        </ViewCell>
+                   
+                        
+
+
+
+                        
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+        <StackLayout>
+            
+        </StackLayout>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

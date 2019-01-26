@@ -1,0 +1,16 @@
+C:\Users\F\source\repos\buddyV2\buddyV2\buddyV2.Android\obj\Debug\81\MonoAndroid,Version=v8.1.AssemblyAttributes.cs
+C:\Users\F\source\repos\buddyV2\buddyV2\buddyV2.Android\obj\Debug\81\buddyV2.Android.nuget.stamp
+C:\Users\F\source\repos\buddyV2\buddyV2\buddyV2.Android\obj\Debug\81\buddyV2.Android.csprojAssemblyReference.cache
+C:\Users\F\source\repos\buddyV2\buddyV2\buddyV2.Android\obj\Debug\81\XbdMerge\Xamarin.GooglePlayServices.Basement.dll.stamp
+C:\Users\F\source\repos\buddyV2\buddyV2\buddyV2.Android\obj\Debug\81\XbdMerge\Xamarin.GooglePlayServices.Tasks.dll.stamp
+C:\Users\F\source\repos\buddyV2\buddyV2\buddyV2.Android\obj\Debug\81\XbdMerge\Xamarin.GooglePlayServices.Base.dll.stamp
+C:\Users\F\source\repos\buddyV2\buddyV2\buddyV2.Android\obj\Debug\81\XbdMerge\Xamarin.GooglePlayServices.Auth.Base.dll.stamp
+C:\Users\F\source\repos\buddyV2\buddyV2\buddyV2.Android\obj\Debug\81\XbdMerge\Xamarin.GooglePlayServices.Auth.Api.Phone.dll.stamp
+C:\Users\F\source\repos\buddyV2\buddyV2\buddyV2.Android\obj\Debug\81\XbdMerge\Xamarin.GooglePlayServices.Auth.dll.stamp
+C:\Users\F\source\repos\buddyV2\buddyV2\buddyV2.Android\obj\Debug\81\XbdMerge\proguard\dc663e480.txt
+C:\Users\F\source\repos\buddyV2\buddyV2\buddyV2.Android\obj\Debug\81\XbdMerge\dc663e48.proguard.stamp
+C:\Users\F\source\repos\buddyV2\buddyV2\buddyV2.Android\obj\Debug\81\XbdMerge\0757626b.proguard.stamp
+C:\Users\F\source\repos\buddyV2\buddyV2\buddyV2.Android\obj\Debug\81\XbdMerge\2f4d086a.proguard.stamp
+C:\Users\F\source\repos\buddyV2\buddyV2\buddyV2.Android\obj\Debug\81\XbdMerge\42561b21.proguard.stamp
+C:\Users\F\source\repos\buddyV2\buddyV2\buddyV2.Android\obj\Debug\81\XbdMerge\d0759c3a.proguard.stamp
+C:\Users\F\source\repos\buddyV2\buddyV2\buddyV2.Android\obj\Debug\81\XbdMerge\f3cea06a.proguard.stamp

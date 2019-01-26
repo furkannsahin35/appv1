@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:controls="clr-namespace:ImageCircle.Forms.Plugin.Abstractions;assembly=ImageCircle.Forms.Plugin"
+             x:Class="buddyV2.Pages.PageLogin" NavigationPage.HasNavigationBar="false">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="#1eafed" Orientation="Vertical">
+            <StackLayout HeightRequest="250" BackgroundColor="#1eafed" Spacing="20">
+                <controls:CircleImage Source="logomain.png" Aspect="AspectFill"  HorizontalOptions="CenterAndExpand" VerticalOptions="EndAndExpand" BorderColor="Black" BorderThickness="2"  >
+                    <controls:CircleImage.WidthRequest>
+                        <OnPlatform x:TypeArguments="x:Double">
+                            <On Platform="Android, iOS">150</On>
+
+                        </OnPlatform>
+                    </controls:CircleImage.WidthRequest>
+                    <controls:CircleImage.HeightRequest>
+                        <OnPlatform x:TypeArguments="x:Double">
+                            <On Platform="Android, iOS">150</On>
+
+                        </OnPlatform>
+                    </controls:CircleImage.HeightRequest>
+                </controls:CircleImage>
+                <Label Text="BUDDY SPEARFISSING"   TextColor="White" FontSize="20" FontAttributes="Bold" HorizontalOptions="CenterAndExpand" VerticalOptions="EndAndExpand"/>
+            </StackLayout>
+            <StackLayout Orientation="Vertical" BackgroundColor="#1eafed" Spacing="15" 
+                        >
+                <Grid >
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="2*"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="2*"/>
+                    </Grid.RowDefinitions>
+                    <Button x:Name="maingirisbutton"  Text="Giriş Yap"    Grid.Row="1"  TextColor="Black" FontSize="20" FontAttributes="Bold" 
+                            HorizontalOptions="CenterAndExpand" VerticalOptions="Center" BackgroundColor="White" Margin="20" Clicked="_maingirisbutton_Clicked"/>
+                    <Button x:Name="kayıtbutton" Text="Kayıt Ol " Grid.Row="2" FontSize="20" FontAttributes="Bold" 
+                            HorizontalOptions="CenterAndExpand" VerticalOptions="Center" BackgroundColor="White" Margin="20" Clicked="_kayıtbutton_Clicked"/>
+
+
+                </Grid>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
